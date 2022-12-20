@@ -1,0 +1,54 @@
+.grid-title
+{
+    text-align: center;
+    background-color: rgb(182, 182, 182);
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    
+}
+
+.grid-container >div
+{
+    background-color: rgb(182, 182, 182);
+    margin: 20px;
+    box-shadow: 10px 10px grey;
+}
+
+span
+{
+    display: block;
+}
+
+a
+{
+    font-family: fantasy;
+}
+
+a:hover
+{
+  background-color: red; 
+  }
+
+.imagen
+{
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+}
+
+.button
+{
+
+    /* display: block; */
+    width: 80px;
+    text-decoration: none;
+    background-color: grey;
+    margin: 10px 20px;
+    text-align: center;
+    
+}

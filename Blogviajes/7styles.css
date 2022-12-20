@@ -1,0 +1,161 @@
+.gridcontainermain
+{
+    display: grid;
+    margin-left: 20px;
+    margin-right: 200px;
+    grid-template-areas:
+    'viaje1 viaje1 viaje1 derecha'
+    'viaje1 viaje1 viaje1 derecha'
+    'viaje1 viaje1 viaje1 derecha' ;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.texto1
+{
+    text-align: center;
+    font-size:small;
+
+}
+
+.avion
+{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header 
+{
+    display: grid;
+    height: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:black;
+    color: white;
+    text-align: center;
+    align-items: center;  
+    margin-left: 200px;
+    margin-right: 200px;     
+}
+
+
+
+.boton1
+{
+    color: white;
+    text-decoration: none;
+    border: solid;
+    padding: 4px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.boton1:hover
+{
+    display: block;
+    border-color: red;
+}
+
+.nada
+{
+    margin-left: 20%; 
+}
+
+.titulos
+{
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+.viaje1 
+{
+    grid-area: viaje1;
+}
+
+.imagenes
+{
+    width: 300px;
+    height: 150px;
+    margin-left: 20%;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+}
+
+.imagenes:hover
+{
+    display: block;
+    border-color: red;
+}
+
+.texto2
+{
+    margin-right: 20%;
+    margin-top: 10px;
+}
+
+.negrito
+{
+    font-weight: bolder;
+    color: red;
+    text-decoration: none;
+}
+
+.boton2
+{
+    margin-left: 150px;
+    color: black;
+    text-decoration: none;
+    border: solid;
+    padding: 4px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.boton2:hover
+{
+    border-color: red;
+    translate: 3px;
+}
+
+.derecha
+{
+    grid-area: derecha;
+    color: white;
+    background-color: black;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.posts
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.viajar
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    border: 2px solid;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.viajar:hover
+{
+    border-color: red;
+    translate: 3px;
+}

@@ -1,0 +1,162 @@
+h1
+{
+    text-align: center;
+}
+
+.texto1
+{
+    text-align: center;
+    font-size:small;
+
+}
+
+.avion
+{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header 
+{
+    display: grid;
+    height: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:black;
+    color: white;
+    text-align: center;
+    align-items: center;  
+    margin-left: 200px;
+    margin-right: 200px;     
+}
+
+
+
+.boton1
+{
+    color: white;
+    text-decoration: none;
+    border: solid;
+    padding: 4px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.boton1:hover
+{
+    display: block;
+    border-color: red;
+}
+
+.izq
+{
+    grid-area: izq;
+    border: solid black;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    height:380px;
+    margin-left: 100px;
+}
+
+.dere
+{
+    grid-area: dere;
+    border: solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 575px;
+    text-align: center;
+    margin-right: 200px;
+    margin-right: 100px;
+}
+
+.gridcontainer
+{
+    display: grid;
+    grid-template-areas: 
+    'izq dere';
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.contacto
+{
+     font-size: 20px;
+}
+
+.solici
+{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.correo
+{
+    font-weight: bolder;
+    color: red;
+    text-decoration: none;
+}
+
+.sig
+{
+    text-align: left;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icono
+{
+    margin-top: -15px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.escrib
+{
+    display: block;
+    width: 400px;
+    margin-left: 15px;
+    margin-top: -10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.escribgrande
+{
+    display: inline-block;
+    padding-bottom: 200px;
+    width: 450px;
+    margin-top: -10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: top;
+}
+
+.envio
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 390px;
+    border: solid black;
+    width: 85px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.3s;
+    font-size: 20px;
+}
+
+.envio:hover
+{
+    border-color: red;
+}

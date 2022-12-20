@@ -1,0 +1,92 @@
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto; 
+   width: 300px;
+
+}
+h2
+{
+    color: red;
+    margin-left: 30.6%;
+    margin-right: 30%;
+}
+table
+{
+    background-color:rgb(233, 233, 233) ;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    padding: 50px;
+    
+}
+caption
+{
+    margin-left: 2%;
+    text-align: left;
+    color: red;    
+}
+
+.dato
+{
+    font-weight:bold;
+}
+
+hr, h4, p
+{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.numero
+{
+    font-weight: bold;
+    background-color: white;
+}
+td
+{
+    padding: 10px;
+}
+.QR
+{
+    float: left;
+                
+}
+.color
+{
+    color: red;
+}
+.blanco
+{
+    background-color: white;
+}
+
+.medio
+{
+    text-align: center;
+}
+
+.colorm
+{
+    text-align: center;
+    color: red;
+}
+
+.tableend
+{
+    background-color: white;
+    text-align: right;
+}
+
+.end
+{
+    color: red;
+}

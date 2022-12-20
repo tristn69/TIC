@@ -1,0 +1,42 @@
+/********* ESTRUCTURA DE LA PÁGINA *********/
+.partesuperior
+{
+    grid-area: partesuperior;
+    text-align: center;
+    border: 2px solid;
+    height: 40px;
+}
+
+.parteizquierda
+{
+    grid-area: parteizquierda;
+    border: 2px solid;
+    height: 80px;
+}
+
+.partederecha
+{
+    grid-area: partederecha;
+    border: 2px solid;
+    height: 80px;
+}
+
+.parteinferior
+{
+    grid-area: parteinferior;
+    text-align: center;
+    border: 2px solid;
+    height: 40px;
+}
+
+.gridcontainer
+{
+    display: grid;
+    grid-template-areas: 
+    'partesuperior  partesuperior'
+    'parteizquierda  partederecha'
+    'parteizquierda  partederecha'
+    'parteinferior parteinferior';
+    gap: 10px;
+   
+}

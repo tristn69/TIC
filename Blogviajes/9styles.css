@@ -1,0 +1,150 @@
+h1
+{
+    text-align: center;
+}
+
+.texto1
+{
+    text-align: center;
+    font-size:small;
+
+}
+
+.avion
+{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header 
+{
+    display: grid;
+    height: 50px;
+    grid-template-columns: auto auto auto auto auto;
+    background-color:black;
+    color: white;
+    text-align: center;
+    align-items: center;  
+    margin-left: 200px;
+    margin-right: 200px;     
+}
+
+
+
+.boton1
+{
+    color: white;
+    text-decoration: none;
+    border: solid;
+    padding: 4px;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+
+.boton1:hover
+{
+    display: block;
+    border-color: red;
+}
+.arriba
+{
+    grid-area: arriba;
+    margin-bottom: 30px;
+    text-decoration: solid;
+    font-size: 60px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.izquierda
+{
+    grid-area: izquierda;
+    border: solid 5px;
+    border-radius: 20px;
+    width: 220px;
+    transition-duration: 0.3s;
+}
+
+.izquierda:hover
+{
+    display: block;
+    border-color: red;
+    translate: 10px;
+}
+
+.centroiz
+{
+    grid-area: centroiz;
+    border: solid 5px;
+    border-radius: 20px;
+    width: 220px;
+    transition-duration: 0.3s;
+}
+
+.centroiz:hover
+{
+    display: block;
+    border-color: red;
+    translate: 10px;
+}
+
+
+.centroder
+{
+    grid-area: centroder;
+    border: solid 5px;
+    border-radius: 20px;
+    width: 220px;
+    transition-duration: 0.3s;
+}
+
+.centroder:hover
+{
+    display: block;
+    border-color: red;
+    translate: 10px;
+}
+
+.derecha
+{
+    grid-area: derecha;
+    border: solid 5px;
+    border-radius: 20px;
+    width: 220px;
+    transition-duration: 0.3s;
+}
+
+.derecha:hover
+{
+    display: block;
+    border-color: red;
+    translate: 10px;
+}
+
+.gridcontainer
+{
+    display: grid;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-template-areas:
+    'arriba arriba arriba arriba'
+    'izquierda centroiz centroder derecha' ;
+    gap: 10px;
+}
+
+.imagenes
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.Nombres
+{
+    text-align: center;
+    font-size: 30px;
+}
